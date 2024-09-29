@@ -81,6 +81,7 @@ main{
     border: 3px solid black;
     width: 1150px;
     margin: auto;
+    display: none;
 }
 .card-container-title{
     text-align: center;
@@ -108,4 +109,31 @@ main{
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
     font-size: 16px;
+}
+
+
+
+
+/* lets make it responsive  */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px 20px;
+    }
+    .nav-container, .right-nav>ul{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-image1{
+        width: 100%;
+    }
+    .banner-image{
+        background-size: cover;
+    }
+    .logo{
+        flex-direction: column;
+    }
+
 }
