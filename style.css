@@ -73,4 +73,39 @@ header{
     width: 1100px;
     height: 5px;
     background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    margin: auto;
+}
+
+/* card  */
+main{
+    border: 3px solid black;
+    width: 1150px;
+    margin: auto;
+}
+.card-container-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(58, 58, 58);
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.card{
+    margin: auto;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+.see-more{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
 }
